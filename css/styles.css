@@ -10868,9 +10868,6 @@ body:before {
     background: url("../assets/img/img.png") rgba(0, 0, 0, 0.85) no-repeat center center scroll;
     background-size: cover;
   }
-  /*body video {*/
-  /*  display: none;*/
-  /*}*/
 }
 .masthead {
   position: relative;
@@ -10892,7 +10889,8 @@ body:before {
   background-color: rgba(0, 0, 0, 0.85);
 }
 .footer {
-  position: relative;
+  position: absolute;
+  bottom: 0;
   overflow: hidden;
   z-index: 2;
   display: flex;
